@@ -1,0 +1,283 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-page {
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-image: url("images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    padding-top: 250px;
+}
+
+.heading h2 {
+    font-size: 100px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.heading p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.next-button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.next-btn {
+    padding: 15px 35px;
+    background-color: white;
+    color: rgb(0, 66, 0);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.next-btn:hover {
+    background-color: #e4b93f;
+    color: white;
+}
+
+.next-btn a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+//Schedule page
+
+.schedule-page {
+    font-family: Georgia, serif;
+    background-image: url("images/Kadhakali4.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+header.schedule-header {
+    color: white;
+    padding: 30px 20px;
+    position: relative;
+}
+
+header.schedule-header h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+header.schedule-header h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+header.schedule-header p {
+    margin-bottom: 20px;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+.container h2 {
+    color: darkgreen;
+    margin-bottom: 20px;
+}
+
+
+.event-buttons button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: darkgreen;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.event-buttons button:hover {
+    background-color: green;
+}
+
+
+#eventDetails {
+    background-color: rgb(95, 156, 76);
+    border: 2px solid darkgreen;
+    padding: 20px;
+    text-align: left;
+}
+
+#eventDetails h3,
+#eventDetails h4 {
+    color: darkgreen;
+    margin-bottom: 10px;
+}
+
+#eventDetails ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+#eventDetails li {
+    margin-bottom: 5px;
+}
+.card {
+    border: 1px solid darkgreen;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+.placeholder {
+    text-align: center;
+    color: rgb(18, 53, 1);
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+
+/* ============================================================
+   === MANAGEMENT PAGE (management.html) ===
+   Original: styleing.css
+   ============================================================ */
+
+.heading-section {
+    background-color: #ffd21c;
+    text-align: center;
+    padding: 40px;
+}
+
+.heading-section h1 {
+    color: #8b1e1e;
+}
+
+.heading-section p {
+    color: #8b1e1e;
+}
+
+body > h2 {
+    color: #8b1e1e;
+    text-align: center;
+    background-color: #ffe9a8;
+    padding: 15px;
+    margin: 40px 7% 20px;
+}
+
+.convener {
+    margin: 20px 10%;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.convener h3 {
+    color: #8b1e1e;
+}
+
+.convener p {
+    color: #555;
+}
+
+//Gallary page
+
+.gallery-page {
+    background-color: #044203;
+}
+
+h1.gallery-title {
+    background-image: url("images/onam-background.jpg.jpeg");
+    background-size: cover;
+    background-position: center;
+    color: rgb(11, 40, 1);
+    font-size: 50px;
+    padding: 60px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.gallery {
+    padding: 20px;
+}
+
+.gallery div {
+    margin-bottom: 20px;
+}
+
+.gallery img {
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+    border: 4px solid #e6b800;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.zoom {
+    transform: scale(1.5);
+}
+
+
+/* ============================================================
+   === SHARED TOP NAVBAR (management.html & gallery.html) ===
+   Matches schedule.html nav style — darkgreen bar, white links,
+   hover = white bg + darkgreen text
+   ============================================================ */
+
+.top-nav-bar {
+    background-color: darkgreen;
+    padding: 12px 20px;
+    text-align: right;
+    position: relative;
+}
+
+.top-nav-bar nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+    padding: 6px 10px;
+    font-size: 16px;
+}
+
+.top-nav-bar nav a:hover,
+.top-nav-bar nav a.active {
+    background-color: white;
+    color: darkgreen;
+}
+
+
+.line {
+    
+}

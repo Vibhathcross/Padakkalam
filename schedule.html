@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Schedule</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* schedule.html — override body to use Kadhakali background (schedule page style) */
+        body {
+            font-family: Georgia, serif;
+            background-image: url("images/Kadhakali4.jpeg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: black;
+            text-align: center;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="top-nav-bar">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="management.html">Management</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="schedule.html" class="active">Schedule</a>
+        </nav>
+    </header>
+
+    <header class="schedule-header">
+        <h1 style="font-size: 100px;color: goldenrod;">പടക്കളം</h1>
+        <h3 style="font-size: 50px;">Event Schedule</h3>
+
+        <p style="align-content: center;">
+            For information regarding the Onam programs, events,
+            competitions and other activities,<br> please click the
+            respective event button below.
+        </p>
+    </header>
+    <div class="container">
+        <div class="line"></div>
+
+        <div class="event-buttons">
+
+            <button id="pookalamBtn">
+                Pookalam Competition
+            </button>
+
+            <button id="gamesBtn">
+                Onam Games
+            </button>
+
+            <button id="sadhyaBtn">
+                Onam Sadhya
+            </button>
+
+            <button id="culturalBtn">
+                Cultural Program
+            </button>
+
+        </div>
+
+
+        <div id="eventDetails">
+
+            <p class="placeholder">
+                Select an event button above to view details.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <footer>
+        <p id="randomText">
+
+        </p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
