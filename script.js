@@ -52,13 +52,28 @@ var games = document.getElementById("gamesBtn");
 var sadhya = document.getElementById("sadhyaBtn");
 var cultural = document.getElementById("culturalBtn");
 
-var subEvents=[pookalam,games,sadhya,cultural];
-for(var i=0;i<subEvents.length;i++){
-    if(subEvents[i]){
-        subEvents[i].addEventListener("click",function(){
-            loadEvent(this.getAttribute("data-file"));
-        });
-    }
+if (pookalam) {
+    pookalam.addEventListener("click", function() {
+        loadEvent("pookalam.json");
+    });
+}
+
+if (games) {
+    games.addEventListener("click", function() {
+        loadEvent("games.json");
+    });
+}
+
+if (sadhya) {
+    sadhya.addEventListener("click", function() {
+        loadEvent("sadhya.json");
+    });
+}
+
+if (cultural) {
+    cultural.addEventListener("click", function() {
+        loadEvent("cultural.json");
+    });
 }
 
 
