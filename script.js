@@ -46,7 +46,7 @@ function showFallback() {
 }
 
 
-// Access buttons (only run if they exist — schedule page)
+// Access buttons 
 var pookalam = document.getElementById("pookalamBtn");
 var games = document.getElementById("gamesBtn");
 var sadhya = document.getElementById("sadhyaBtn");
