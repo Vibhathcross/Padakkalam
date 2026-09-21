@@ -62,7 +62,7 @@ body {
 }
 
 
-//Schedule page
+/* Schedule page */
 
 .schedule-page {
     font-family: Georgia, serif;
@@ -167,11 +167,7 @@ footer {
     margin-top: 40px;
 }
 
-
-/* ============================================================
-   === MANAGEMENT PAGE (management.html) ===
-   Original: styleing.css
-   ============================================================ */
+/* Management page */
 
 .heading-section {
     background-color: #ffd21c;
@@ -209,7 +205,7 @@ body > h2 {
     color: #555;
 }
 
-//Gallary page
+/* Gallary page */
 
 .gallery-page {
     background-color: #044203;
@@ -249,11 +245,7 @@ h1.gallery-title {
 }
 
 
-/* ============================================================
-   === SHARED TOP NAVBAR (management.html & gallery.html) ===
-   Matches schedule.html nav style — darkgreen bar, white links,
-   hover = white bg + darkgreen text
-   ============================================================ */
+/* Common nav bar */
 
 .top-nav-bar {
     background-color: darkgreen;
