@@ -1,21 +1,16 @@
 {
     "content": [
-        "<h3>Athapookalam Competition</h3>",
+        "<h3>Athapookalam Competition 2026</h3>",
         "<p><strong>Time:</strong> 10:00 AM - 11:30 AM</p>",
         "<p><strong>Venue:</strong> Main Auditorium Foyer</p>",
         "<p><strong>Coordinator:</strong> Arts Club Committee</p>",
-        "<p>Traditional floral carpet competition showcasing creativity and teamwork.</p>",
-        "<div class=\"card\">",
-        "    <strong>Competition Rules</strong>",
-        "    <ul>",
-        "        <li>Time limit: 90 minutes</li>",
-        "        <li>Maximum 8 members per team</li>",
-        "        <li>Only fresh natural flowers and leaves permitted</li>",
-        "    </ul>",
-        "</div>",
-        "<div class=\"card\">",
-        "    <strong>Judging Criteria</strong>",
-        "    <p>Evaluated on creativity, symmetry, color combination, and neatness.</p>",
-        "</div>"
+        "<p>Students can participate in a traditional Athapookalam competition using natural flowers and leaves.</p>",
+        "<ul>",
+        "    <li><strong>Plot Size:</strong> 5 ft × 5 ft</li>",
+        "    <li><strong>Maximum Teams:</strong> 2 teams per department</li>",
+        "    <li><strong>Team Size:</strong> 8 members</li>",
+        "    <li><strong>Flowers:</strong> Thumba, Chethi, Mukkutti, Kakka Poovu, Marigold, Rose and Jasmine</li>",
+        "    <li><strong>Materials:</strong> Natural flowers, leaves and chalk for outline</li>",
+        "</ul>"
     ]
 }
