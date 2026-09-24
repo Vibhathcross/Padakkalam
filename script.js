@@ -45,29 +45,24 @@ var games = document.getElementById("gamesBtn");
 var sadhya = document.getElementById("sadhyaBtn");
 var cultural = document.getElementById("culturalBtn");
 
-if (pookalam) {
     pookalam.addEventListener("click", function() {
         loadEvent("pookalam.json");
       });
-}
 
-if (games) {
+
     games.addEventListener("click", function() {
         loadEvent("games.json");
 });
-}
 
-if (sadhya) {
+
+
     sadhya.addEventListener("click", function() {
         loadEvent("sadhya.json");
  });
-}
 
-if (cultural) {
     cultural.addEventListener("click", function() {
         loadEvent("cultural.json");
     });
-}
 
 
 // Random Onam quote in footer
