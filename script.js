@@ -2,11 +2,11 @@
 //Gallary Zoom
 var images = document.querySelectorAll(".gallery img");
 
-for (var i = 0; i < images.length; i++) {
+for (var i = 0; i < images.length; i++) 
+{
 
     images[i].addEventListener("click", function() {
-
-        this.classList.toggle("zoom");
+          this.classList.toggle("zoom");
 
  });
 
@@ -72,7 +72,6 @@ if (cultural) {
 
 // Random Onam quote in footer
 var randomTextEl = document.getElementById("randomText");
-
 if (randomTextEl) {
     var texts = [
         "May the colours of Pookalam fill your life with happiness and prosperity.",
@@ -97,6 +96,5 @@ if (randomTextEl) {
     ];
 
     var random = Math.floor(Math.random() * texts.length);
-
     randomTextEl.innerHTML = texts[random];
 }
