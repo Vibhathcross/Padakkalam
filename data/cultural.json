@@ -1,3 +1,14 @@
 {
-    "content": "<h3>Cultural Program </h3><p><strong>Time:</strong> 03:00 PM - 05:00 PM</p><p><strong>Venue:</strong> Open Air Auditorium Stage</p><p><strong>Coordinator:</strong> Arts Club & Cultural Committee</p><p>Vibrant traditional Kerala music, dance, Thiruvathira, and drama performances presented by students and faculty.</p><h4>Programs</h4><div class='card'><strong>Thiruvathirakali</strong><p>03:00 PM - 03:30 PM</p><p>Traditional circular dance performed by female students around a lit Nilavilakku.</p></div><div class='card'><strong>Onapattu & Music Concert</strong><p>03:30 PM - 04:15 PM</p><p>Festive Onam songs and classical musical renditions by the college band.</p></div><div class='card'><strong>Folk Dance & Drama</strong><p>04:15 PM - 05:00 PM</p><p>Skit and fusion dance performances celebrating Mahabali and Onam legends.</p></div>"
+    "content": [
+        "<h3>Cultural Program (Kala Sandhya)</h3>",
+        "<p><strong>Time:</strong> 03:00 PM - 05:00 PM</p>",
+        "<p><strong>Venue:</strong> Open Air Auditorium Stage</p>",
+        "<p><strong>Coordinator:</strong> Arts & Cultural Committee</p>",
+        "<p>Vibrant traditional Kerala music, dance, and cultural performances by students and staff.</p>",
+        "<ul>",
+        "    <li><strong>Thiruvathirakali:</strong> Traditional dance around the Nilavilakku</li>",
+        "    <li><strong>Onapattu:</strong> Traditional festive Onam songs</li>",
+        "    <li><strong>Folk Dance & Drama:</strong> Cultural skits celebrating King Mahabali</li>",
+        "</ul>"
+    ]
 }
