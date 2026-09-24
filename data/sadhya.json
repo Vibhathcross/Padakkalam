@@ -1,3 +1,15 @@
 {
-    "content": "<h3>Grand Onam Sadhya</h3><p><strong>Time:</strong> 01:00 PM - 02:30 PM</p><p><strong>Venue:</strong> College Dining Hall / Food Court</p><p><strong>Coordinator:</strong> Hospitality & Food Committee</p><p>The grand traditional vegetarian feast served on fresh plantain leaves, featuring authentic Kerala delicacies celebrating the harvest festival.</p><h4>Sadhya Highlights</h4><ul><li><strong>Serving Style:</strong> Traditional feast served on fresh banana leaf </li><li><strong>Seating:</strong> Batch-wise seating arrangement for all students, staff, and guests</li><li><strong>Varieties:</strong> Over 20 authentic traditional dishes, curries, pickles, and crispy snacks</li></ul><h4>Menu & Delicacies</h4><div class='card'><strong>Rice & Main Curries</strong><p>Kerala Matta Rice, Parippu with Ghee, Sambar, Moru Curry, Pulissery, and Rasam.</p></div><div class='card'><strong>Side Dishes</strong><p>Avial, Thoran, Olan, Kalan, Erissery, Pachadi, and Kichadi.</p></div><div class='card'><strong>Accompaniments</strong><p>Sharkara Varatti, Banana Chips (Upperi), Inji Puli, Lime Pickle, and Papadam.</p></div><div class='card'><strong>Dessert (Payasam)</strong><p>Traditional Ada Pradhaman and creamy Palada Payasam.</p></div>"
+    "content": [
+        "<h3>Grand Onam Sadhya</h3>",
+        "<p><strong>Time:</strong> 01:00 PM - 02:30 PM</p>",
+        "<p><strong>Venue:</strong> College Dining Hall</p>",
+        "<p><strong>Coordinator:</strong> Food & Hospitality Committee</p>",
+        "<p>Traditional vegetarian feast served on fresh plantain banana leaves.</p>",
+        "<ul>",
+        "    <li><strong>Main Dishes:</strong> Kerala Matta Rice, Parippu with Ghee, and Sambar</li>",
+        "    <li><strong>Side Curries:</strong> Avial, Thoran, Olan, Kalan, and Rasam</li>",
+        "    <li><strong>Snacks:</strong> Banana Chips, Sharkara Varatti, and Pickles</li>",
+        "    <li><strong>Dessert:</strong> Ada Pradhaman and Palada Payasam</li>",
+        "</ul>"
+    ]
 }
