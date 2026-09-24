@@ -5,10 +5,8 @@
         "<p><strong>Venue:</strong> Main Ground</p>",
         "<p><strong>Coordinator:</strong> Sports Committee</p>",
         "<p>Traditional Onam games filled with fun, teamwork and excitement.</p>",
-        "<ul>",
-        "    <li><strong>Vadamvali:</strong> Traditional tug of war competition</li>",
-        "    <li><strong>Uriyadi:</strong> Traditional pot-breaking game</li>",
-        "    <li><strong>Chaakkil Chaattam:</strong> Fun sack race competition</li>",
-        "</ul>"
+        "<div class='card'><strong>Vadamvali</strong><p>Traditional tug of war competition.</p></div>",
+        "<div class='card'><strong>Uriyadi</strong><p>Traditional pot-breaking game.</p></div>",
+        "<div class='card'><strong>Chaakkil Chaattam</strong><p>Fun sack race competition.</p></div>"
     ]
 }
