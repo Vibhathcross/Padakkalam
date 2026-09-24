@@ -8,11 +8,9 @@ for (var i = 0; i < images.length; i++) {
 
         this.classList.toggle("zoom");
 
-    });
+ });
 
 }
-
-
 
 
 //Schedule page
@@ -30,11 +28,6 @@ function loadEvent(filename) {
                 showFallback();
             }
         };
-
-        xhr.onerror = function() {
-            showFallback();
-        };
-
         xhr.send();
     } catch (e) {
         showFallback();
@@ -55,19 +48,19 @@ var cultural = document.getElementById("culturalBtn");
 if (pookalam) {
     pookalam.addEventListener("click", function() {
         loadEvent("pookalam.json");
-    });
+      });
 }
 
 if (games) {
     games.addEventListener("click", function() {
         loadEvent("games.json");
-    });
+});
 }
 
 if (sadhya) {
     sadhya.addEventListener("click", function() {
         loadEvent("sadhya.json");
-    });
+ });
 }
 
 if (cultural) {
