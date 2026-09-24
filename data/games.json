@@ -2,20 +2,13 @@
     "content": [
         "<h3>Onam Games (Onakalikal)</h3>",
         "<p><strong>Time:</strong> 11:30 AM - 01:30 PM</p>",
-        "<p><strong>Venue:</strong> College Main Ground</p>",
+        "<p><strong>Venue:</strong> Main Ground</p>",
         "<p><strong>Coordinator:</strong> Sports Committee</p>",
-        "<p>Fun traditional sports and activities celebrating the Onam festival.</p>",
-        "<div class=\"card\">",
-        "    <strong>Vadamvali (Tug of War)</strong>",
-        "    <p>Inter-department knockout rounds with teams of 8 members.</p>",
-        "</div>",
-        "<div class=\"card\">",
-        "    <strong>Uriyadi (Pot Breaking)</strong>",
-        "    <p>Traditional blindfolded pot breaking using a bamboo stick.</p>",
-        "</div>",
-        "<div class=\"card\">",
-        "    <strong>Fun Races</strong>",
-        "    <p>Sack Race, Lemon & Spoon Race, and Musical Chairs.</p>",
-        "</div>"
+        "<p>Traditional Onam games filled with fun, teamwork and excitement.</p>",
+        "<ul>",
+        "    <li><strong>Vadamvali:</strong> Traditional tug of war competition</li>",
+        "    <li><strong>Uriyadi:</strong> Traditional pot-breaking game</li>",
+        "    <li><strong>Chaakkil Chaattam:</strong> Fun sack race competition</li>",
+        "</ul>"
     ]
 }
