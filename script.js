@@ -23,7 +23,7 @@ function loadEvent(filename) {
         xhr.onload = function() {
             if (xhr.status == 200) {
                 var data = JSON.parse(xhr.responseText);
-                document.getElementById("eventDetails").innerHTML = data.content;
+                document.getElementById("eventDetails").innerHTML = data.content.join("");
             } else {
                 showFallback();
             }
