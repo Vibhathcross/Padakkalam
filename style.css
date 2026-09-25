@@ -212,7 +212,6 @@ body > h2 {
 }
 
 h1.gallery-title {
-    background-image: url("images/onam-background.jpg.jpeg");
     background-size: cover;
     background-position: center;
     color: rgb(11, 40, 1);
